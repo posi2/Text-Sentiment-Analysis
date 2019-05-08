@@ -15,6 +15,6 @@ Model should correctly classify the sentiment in the text.
 
 3. **Modelling** : Train the classifier multiple sentiments (positive, negative and neutral). Implement the naive bayes algorithm and using scikit learn library.
 
-4. **Visualization **: 
+4. **Visualization**: 
 
 5. **User Interface** : using flask framework
