@@ -1,10 +1,11 @@
 # Text-Sentiment-Analysis
 
-![](sentiment-fig.jpg)
 
 ### Goal
 
 Model should correctly classify the sentiment in the text.
+
+![](sentiment-fig.jpg)
 
 ### Major Components
 
