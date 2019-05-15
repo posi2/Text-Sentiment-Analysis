@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Text Sentiment Analysis</title>
+
+    <style>
+       .main_heading{
+         text-align: center;
+         width: 90%;
+         height: auto;
+         margin: auto;
+         
+       }
+       .review{
+         margin-top: 100px;
+       }
+       .input_review{
+          height:100px;
+          width: 50%;
+          margin-bottom: 30px;
+
+       }
+       .submit_button{
+         width: 10%;
+         height:10%;
+         font-size: 20px;
+       }
+       body{
+         text-align: center;
+       }
+    </style>
+</head>
+<body>
+  <div class="main_heading">
+
+      <h1> Welcome To Text Sentiment Analysis</h1>
+      <p class='lead'> This application help you to find Sentiment of the customer review.
+      <br>
+      <br>
+      Model is trained on various customer reviews from e-commerce website </p>
+
+  </div>
+  <div class = "review">
+        <form action="http://localhost:5000/" method="POST" >
+            <input id="in" class = "input_review" type = "text" name="review" placeholder="Enter CustomerReview">
+            <br>
+            <input id = "submit_button" class = "submit_button" type="submit" value="Submit" > <br/>
+        </form>
+        <p><span id='display'></span></p>
+  </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+</html>
